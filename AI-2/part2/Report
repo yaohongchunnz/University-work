@@ -1,0 +1,5 @@
+Expression: gp_add(gp_mul(gp_mul(x, x), gp_mul(gp_sub(x, 2), x)), gp_add(gp_mul(x, x), 1))
+
+def gp_add(a, b): return a+b
+def gp_sub(a, b): return a-b
+def gp_mul(a, b): return a*b
